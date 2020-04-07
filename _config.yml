@@ -29,3 +29,9 @@ nav:
    link: "/"
  - name: "Notes"
    link: "/notes"
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      layout: default

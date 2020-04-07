@@ -9,6 +9,12 @@ Do some testing
 ```python
 import pandas as pd
 ```
+```r
+library(data.table)
+
+dt <- fread("data/raw.csv")
+```
+
 $$
 E = MC^2
 $$

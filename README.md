@@ -2,26 +2,30 @@
 
 ### Setup
 
-#### Local
+1. Install [Jekyll](https://jekyllrb.com/docs/installation/)
 
-Install [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/).
+2. Clone this repo
 
-Clone this repo.
+3. Run:
 
-Then from root dir:
+    ```
+    bundle install
+    ```
+
+    To install `jekyll-compose` to help write posts
+
+### Making edits
+
+Use the [jekyll-compose](https://github.com/jekyll/jekyll-compose) functions
+to make and publish drafts.
+
+While editing, run:
 
 ```bash
 jekyll serve --drafts
 ```
 
-Edit until happy.
+So you can see the changes live.
 
-#### Live
-
-Just merge changes into master. Github will rebuild the site and then serve
-it at [adamgil.es](https://adamgil.es)
-
-### Updates
-
-Set the original repo as another remote, then merge the `upstream/gh-pages` 
-branch into a new branch of this repo.
+To get the new version online, just merge changes into master. 
+GitHub will rebuild the site and then serve it at [adamgil.es](https://adamgil.es).
