@@ -19,6 +19,9 @@
 Use the [jekyll-compose](https://github.com/jekyll/jekyll-compose) functions
 to make and publish drafts.
 
+If you have the `JEKYLL_EDITOR` variable set, new drafts will automatically 
+open for editing.
+
 While editing, run:
 
 ```bash

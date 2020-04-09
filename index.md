@@ -21,6 +21,19 @@ policy impacts in financial markets.
 In particular, I'm interested in applying methods and ideas from machine 
 learning to econometrics.
 
+## Experience
+
+**Financial Conduct Authority**, Economics and Data Science
+
+* Manager, Household Finance and Economic Data Science, July 2019 to present
+* Technical Specialist, Economic Data Science, August 2017 to June 2019
+
+**Oxera**, Economics and Econometrics
+
+* Technical Adviser, Econometrics, July 2015 to July 2017
+* Consultant, Econometrics, December 2012 to June 2015
+* Analyst, Econometrics and Energy modelling, September 2011 to November 2012
+
 ## Education
 
 **The London School of Economics**, July 2011

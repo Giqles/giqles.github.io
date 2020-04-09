@@ -3,7 +3,7 @@
 <head>
 
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{{ site.title }}{% if page.title %}: {{ page.title }}{% endif %}</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +64,7 @@
             {% if site.ins_logo %}
                 <img id="ins-logo" src="{{ site.ins_logo }}" />
             {% endif %}
-            <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">{{ site.title }}</a>
+            <a id="author-name" class="alignable pull-left" href="{{ site.url }}">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
                     {% if x.name == "Resume" %}
@@ -87,6 +87,26 @@
             <div class="container content">
         {% endif %}
                 {{ content }}
+                {% if page.comments %}
+                    <div id="disqus_thread"></div>
+                    <script>
+
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    var disqus_config = function () {
+                    this.page.url = '{{ page.url | absolute_url }}';  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = '{{ page.url | absolute_url }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                {% endif %}
                 {% if site.footer == true %}
                     <hr />
                     <p style="text-align: center; margin-bottom: 10px">
