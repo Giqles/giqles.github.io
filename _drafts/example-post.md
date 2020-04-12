@@ -7,7 +7,7 @@ categories: [R, python]
 
 ## About Me
 
-Do some testing
+Do some testing with `inline` code
 
 ```python
 import pandas as pd
@@ -23,3 +23,5 @@ E = MC^2
 $$
 
 And some inline $$\LaTeX$$.
+
+> and a quote
