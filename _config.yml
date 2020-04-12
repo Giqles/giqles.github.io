@@ -23,9 +23,20 @@ sass:
     sass_dir: _sass
 
 nav:
+ - name: "Home"
+   link: "/"
  - name: "Contact"
    link: "/contact"
- - name: "About"
-   link: "/"
  - name: "Notes"
    link: "/notes"
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      layout: default
+      comments: true
+      title:
+
+disqus:
+  shortname: adam-giles

@@ -1,6 +1,9 @@
 ---
 layout: default
+title: Notes
 ---
+
+# {{ page.title }}
 
 <ul>
   {% for post in site.posts %}

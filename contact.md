@@ -1,7 +1,10 @@
 ---
 layout: default
 is_contact: true
+title: Contact
 ---
+
+# {{ page.title }}
 
 * **Email**: apsgiles (at) gmail
 * [Twitter](https://twitter.com/apsgiles)

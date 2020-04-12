@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 ## About Me
@@ -8,6 +9,11 @@ Do some testing
 
 ```python
 import pandas as pd
+```
+```r
+library(data.table)
+
+dt <- fread("data/raw.csv")
 ```
 
 $$
