@@ -1,5 +1,10 @@
 ---
 layout: default
-title: data.table things
+title: data.table tricks
 comments: true
+categories: [R]
 ---
+
+# data.table tricks
+
+

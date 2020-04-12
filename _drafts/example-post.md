@@ -1,6 +1,8 @@
 ---
 layout: default
+title: Example post
 comments: true
+categories: [R, python]
 ---
 
 ## About Me
