@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Example post
+author: Adam Giles
 comments: true
 categories: [R, python]
 ---
