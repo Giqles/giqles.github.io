@@ -1,0 +1,23 @@
+email:
+  id: 'apsgiles@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope'
+
+facebook:
+  id: 'adam.giles.10'
+  href: 'https://www.facebook.com/'
+  title: 'Facebook'
+  fa-icon: 'fa-facebook'
+
+twitter:
+  id: 'apsgiles'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter'
+
+github:
+  id: 'Giqles'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github'

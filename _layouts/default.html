@@ -56,7 +56,7 @@
     {% endif %}
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -86,7 +86,15 @@
         {% else %}
             <div class="container content">
         {% endif %}
+                {% if page.date %}
+                    <h1>{{page.title}}</h1>
+                    <b>{{ page.author }}</b>&comma;{{ page.date | date: '%d %B %Y'}}
+                    <hr>
+                {% endif %}
                 {{ content }}
+                {% if page.author %}
+                    {% include bio.html %}
+                {% endif %}
                 {% if page.comments %}
                     <div id="disqus_thread"></div>
                     <script>
