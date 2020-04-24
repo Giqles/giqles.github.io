@@ -88,7 +88,7 @@
         {% endif %}
                 {% if page.date %}
                     <h1>{{page.title}}</h1>
-                    <b>{{ page.author }}</b>&comma;{{ page.date | date: '%d %B %Y'}}
+                    <b>{{ page.author }}</b>&comma;&nbsp;{{ page.date | date: '%d %B %Y'}}
                     <hr>
                 {% endif %}
                 {{ content }}
