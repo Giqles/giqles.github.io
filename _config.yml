@@ -4,7 +4,6 @@ baseurl: ""
 
 markdown: kramdown
 highlighter: rouge
-#ins_logo: "./bits-logo.png"
 
 kramdown:
     input: GFM
