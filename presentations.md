@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Notes
+title: Presentations
 ---
 
 # {{ page.title }}
 
 <ul>
   {% for post in site.posts %}
-    {% if post.layout == "default" %}
+    {% if post.layout == "presentation" %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
