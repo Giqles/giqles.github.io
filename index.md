@@ -2,9 +2,9 @@
 layout: default
 ---
 
-## About Me
-
 <img class="profile-picture" src="profile.jpg">
+
+## About Me
 
 I'm an economist based in London working for the UK Financial Conduct Authority.
 
