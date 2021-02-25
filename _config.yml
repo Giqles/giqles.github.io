@@ -14,8 +14,6 @@ tracking_id: UA-122038209-1
 
 footer: yes
 footer_url: "https://github.com/giqles/giqles.github.io"
-# footer_text: "&copy; Adam Giles 2020" -- just shoved this
-# straight into _layouts/default.html
 
 sass:
     style: compressed
@@ -28,6 +26,8 @@ nav:
    link: "/contact"
  - name: "Notes"
    link: "/notes"
+ - name: "Presentations"
+   link: "/presentations"
 
 jekyll_compose:
   auto_open: true
