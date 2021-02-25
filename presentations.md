@@ -10,7 +10,7 @@ title: Presentations
     {% if post.layout == "presentation" %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>, 
-        <a href='{{ "../../../assets/" | append: post.pdf_file }}'>[pdf]</a>
+        <a href='{{ site.url | append: "/assets/" | append: post.pdf_file }}'>[pdf]</a>
       </li>
     {% endif %}
   {% endfor %}
