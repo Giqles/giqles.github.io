@@ -3,13 +3,7 @@ email:
   href: 'mailto:'
   title: 'Email'
   fa-icon: 'fa-envelope'
-
-facebook:
-  id: 'adam.giles.10'
-  href: 'https://www.facebook.com/'
-  title: 'Facebook'
-  fa-icon: 'fa-facebook'
-
+  
 twitter:
   id: 'apsgiles'
   href: 'https://www.twitter.com/'
