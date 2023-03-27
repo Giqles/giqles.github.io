@@ -28,6 +28,8 @@ nav:
    link: "/notes"
  - name: "Presentations"
    link: "/presentations"
+ - name: "Recipes"
+   link: "/recipes"
 
 jekyll_compose:
   auto_open: true
